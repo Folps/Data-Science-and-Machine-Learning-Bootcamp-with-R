@@ -30,7 +30,7 @@ print(over.23)
 
 #Use the over.23 vector to filter out the stock.prices vector and only return the day and prices where the price was over $23
 
-stock.prices[over.23] #Envia los True.
+days[over.23] #Envia los True.
 
 #Use a built-in function to find the day the price was the highest34
 
