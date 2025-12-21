@@ -5,9 +5,9 @@ df2<-data.frame(col.name.1=2000,col.name.2="New")
 df2
 
 dfnew<-rbind(df,df2)
+dfnew
 
-
-df$newcol<-2*df$col.name.1 #Add nueva columna
+df$newcol<-2*df$col.name.1 #Add nueva columna multiplica x 2
 
 df
 df2
