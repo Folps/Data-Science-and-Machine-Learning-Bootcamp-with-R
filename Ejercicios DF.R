@@ -14,4 +14,22 @@ df
 colnames(df) <- c("","Age","Weight","Sex")
 df
 
-#
+#Ejercicio 2
+
+df.mtcears <- data.frame(mtcars)
+is.data.frame(df.mtcears)
+
+help(data.frame)
+
+#Ejercicio 3
+
+mat <-  matrix(1:25, nrow=5)
+mat
+
+mat.df <- data.frame(mat)
+mat.df
+
+cars.df <- mtcars
+
+
+
