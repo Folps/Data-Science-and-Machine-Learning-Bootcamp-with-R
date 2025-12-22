@@ -1,5 +1,3 @@
-#Overview data frames operaciones
-
 #Creating DF
 
 empty <- data.frame()
