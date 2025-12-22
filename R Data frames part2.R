@@ -77,4 +77,3 @@ mtcars$mpg[is.na(mtcars$mpg)] <- mean(mtcars$mpg)#Ese código en R lo que hace e
 
 
 
->>>>>>> 9ba7efae0d35fe23376d232b2326ec5fafc05676

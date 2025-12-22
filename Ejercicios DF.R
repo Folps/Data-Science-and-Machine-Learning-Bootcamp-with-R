@@ -31,5 +31,23 @@ mat.df
 
 cars.df <- mtcars
 
+#Ejercicio 6
+
+head(cars.df,6)
+
+help(average)
+help(avg)
+
+averaage <- mean(cars.df$mpg)
+averaage
+
+#Ejercicio 7
+
+
+subset(cars.df,cyl==6)
+
+cars.df["am","gear","carb"]
+
+
 
 
