@@ -52,7 +52,7 @@ df[-2,] #Seleccioma todo excepto la fila 2
 head(mtcars)
 
 mtcars[mtcars$mpg >20,] #Muestra la columnas de MG con valor mayor a 20
-
+s
 
 mtcars[(mtcars$mpg>20) & (mtcars$cyl==6)]
 
