@@ -52,8 +52,14 @@ cars.df[,c("am","gear","carb")]
 
 #Ejercicio 9
 
-performance <- 
-cars.df[,"newcol.copy2"] <- df$newcol #Add nueva columna
-
+cars.df$performance <- cars.df$hp/ cars.df$wt
 cars.df
+head(cars.df)
 
+help(round)
+
+cars.df$performance.round <- round(cars.df$performance, digits = 2)
+
+#cars.df <- round(cars.df$performance,digits=2) Sobreecibe todo el df
+
+head(cars.df)
