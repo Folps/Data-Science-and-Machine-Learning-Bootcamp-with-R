@@ -1,5 +1,3 @@
-# Data-Science-and-Machine-Learning-Bootcamp-with-R
-
 # Data Science and Machine Learning Bootcamp with R
 
 Este repositorio contiene mis prácticas, proyectos y apuntes del **Data Science and Machine Learning Bootcamp with R**.  
