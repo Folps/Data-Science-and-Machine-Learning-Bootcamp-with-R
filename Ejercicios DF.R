@@ -46,8 +46,14 @@ averaage
 
 subset(cars.df,cyl==6)
 
-cars.df["am","gear","carb"]
+#Ejercicio 8
 
+cars.df[,c("am","gear","carb")]
 
+#Ejercicio 9
 
+performance <- 
+cars.df[,"newcol.copy2"] <- df$newcol #Add nueva columna
+
+cars.df
 
