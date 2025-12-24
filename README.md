@@ -39,10 +39,3 @@ El objetivo es documentar mi aprendizaje en análisis de datos, estadística apl
 
 ---
 
-## 🎯 Objetivo personal
-
-Este repositorio refleja mi progreso en el camino hacia la **analítica avanzada y machine learning en R**, aplicando buenas prácticas de programación y documentación.  
-Forma parte de mi perfil como **IT Corporate Analyst** y estudiante de **Estadística**, integrando mi experiencia en **SaaS, e-commerce analytics y pharma logistics** con nuevas habilidades en **Data Science**.
-
----
-
