@@ -58,9 +58,11 @@ mtcars[(mtcars$mpg>20) & (mtcars$cyl==6)]
 
 mtcars[(mtcars$mpg>20) & (mtcars$cyl==6), c("mpg","cyl","hp")] # solo muestra las columnas del vector mecionado
 
+#Ex 11: What is the mpg of the Hornet Sportabout?
+  
+  
 
-subset(mtcars,mpg>20 & cyl==6, c("mpg"))
-
+cars.df["Hornet Sportabout", "mpg"]
 
 mtcars[,c(1,2,3,4,5)] #returns las columnas mencionadas
 

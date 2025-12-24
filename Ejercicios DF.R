@@ -54,12 +54,20 @@ cars.df[,c("am","gear","carb")]
 
 cars.df$performance <- cars.df$hp/ cars.df$wt
 cars.df
+
+
+cars.df$performance <- round(cars.df$performance, digits = 2)
 head(cars.df)
-
-help(round)
-
-cars.df$performance.round <- round(cars.df$performance, digits = 2)
 
 #cars.df <- round(cars.df$performance,digits=2) Sobreecibe todo el df
 
-head(cars.df)
+#EJERCICIO 10 Ex 10: What is the average mpg for cars that have more than 100 hp AND a wt value of more than 2.5.
+
+#mtcars[(mtcars$mpg>20) & (mtcars$cyl==6), c("mpg","cyl","hp")] # solo muestra las columnas del vector mecionado
+
+mean(cars.df$mpg[(cars.df$hp > 100) & (cars.df$wt > 2.5)])
+
+#Ex 11: What is the mpg of the Hornet Sportabout?
+
+cars.df
+cars.df["Hornet Sportabout", "mpg"]
