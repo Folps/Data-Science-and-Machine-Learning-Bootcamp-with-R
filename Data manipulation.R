@@ -27,5 +27,9 @@ head(transmute(flights,nueva_columna=arr_delay*dep_delay))
 
 summarise(flights,total_time=sum(air_time,na.rm=T))
 
-sample_frac(flights,0.1)
+sample_frac(flights,0.2)
 
+sample_n(flights,2)
+
+
+#pipe operator
